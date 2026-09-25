@@ -200,7 +200,8 @@
       "Cpu" : "6510",
       "Speed" : "1.023",
       "Description" : "Commodore 64 home computer.  The first two bytes hold the load address.",
-      "SymbolFiles" : [
+      "SymbolFiles": [
+        "RT:Commodore/C64-IO.sym65",
         "RT:Commodore/C64-Kernal.sym65"
       ],
       "ExtensionScripts" : [
@@ -217,7 +218,8 @@
       "Cpu" : "6510",
       "Speed" : "1.023",
       "Description" : "Commodore 64 home computer.  General binary file.",
-      "SymbolFiles" : [
+      "SymbolFiles": [
+        "RT:Commodore/C64-IO.sym65",
         "RT:Commodore/C64-Kernal.sym65"
       ],
       "ExtensionScripts" : [
@@ -233,7 +235,8 @@
       "Cpu" : "6510",
       "Speed" : "1.023",
       "Description" : "Commodore 64 home computer.  The file is in VICE CRT (cartridge) format.",
-      "SymbolFiles" : [
+      "SymbolFiles": [
+        "RT:Commodore/C64-IO.sym65",
         "RT:Commodore/C64-Kernal.sym65"
       ],
       "ExtensionScripts" : [
@@ -251,6 +254,7 @@
       "Speed" : "2",
       "Description" : "Commodore 128 home computer.",
       "SymbolFiles" : [
+        "RT:Commodore/C64-IO.sym65",
         "RT:Commodore/C64-Kernal.sym65",
         "RT:Commodore/C128-Kernal.sym65"
       ],
